@@ -1,0 +1,23 @@
+{
+    "name": "student-productivity-prediction-with-ml",
+    "version": "1.0.0",
+    "description": "A student productivity prediction system with TensorFlow.js",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "browser-sync -w . --server --files 'index.html, data/*.csv, src/**/*.js' --port 3000",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "tensorflow",
+        "machine-learning",
+        "student-productivity",
+        "prediction",
+        "javascript"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "browser-sync": "^3.0.4"
+    }
+}
